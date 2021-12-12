@@ -6,8 +6,8 @@ PouchDB.plugin(pouchdbDebug);
 PouchDB.debug.enable('*');
 
 //Creating the database object
-const db = new PouchDB('http://root:root@localhost:5984/coronavirus_politologue');
-doc = require('./assets/coronavirus.politologue.json');
+const db = new PouchDB('http://root:root@localhost:5984/coronavirus_data');
+doc = require('./assets/coronavirus_data.json');
 
 /*
 //Inserting data

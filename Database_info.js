@@ -3,9 +3,9 @@ const PouchDB = require('pouchdb');
 PouchDB.plugin(require('pouchdb-find'));
 
 //Creating the database object
-const db_local = new PouchDB('coronavirus_politologue');
-// const db_Remote = new PouchDB('http://root:root@localhost:5984/coronavirus_politologue');
-doc = require('./assets/pays_data.json');
+const db_local = new PouchDB('coronavirus_data');
+// const db_Remote = new PouchDB('http://root:root@localhost:5984/coronavirus_data');
+doc = require('./assets/coronavirus_data.json');
 
 //Inserting data
 const db = db_local;

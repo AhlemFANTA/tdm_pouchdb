@@ -1,6 +1,6 @@
 {
-  "_id": "pays_data_db",
-  "name": "PaysData",
+  "_id": "coronavirus_data_db",
+  "name": "CoronavirusData",
   "docs": [
     {
       "Date": "2021-10-17T00:00:00",
