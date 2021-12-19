@@ -1,295 +1,32 @@
 {
-  "Source": "Source de ce jeu de données : https://coronavirus.politologue.com - Les données proposées dans ce fichier sont une compilation des données proposées par le CSSE (The Johns Hopkins University) https://gisanddata.maps.arcgis.com/apps/opsdashboard/index.html#/bda7594740fd40299423467b48e9ecf6",
-  "Information": "Les données de ce fichier sont celles qui sont produites pour générer les graphiques sur https://coronavirus.politologue.com",
-  "Utilisation": "Vous pouvez utiliser ces données sans problème et une référence à https://coronavirus.politologue.com sera appréciable",
-  "Modification": "Certains ne respectent pas la demande de ne pas récupérer trop souvent le fichier pour préserver le serveur (cela ne sert à rien de récupérer toutes les 3 min), le fichier présente désormais les 30 derniers jours seulement. Si vous souhaitez avoir accès à l'ensemble, contactez moi, je n'ai pas le temps de faire la chasse à ceux qui ne respectent pas une certaine éthique, alors je fais en sorte de préserver mes ressources",
-  "GlobalData": [
-    {
-      "Date": "2021-10-17T00:00:00",
-      "Infection": 240521492,
-      "Deces": 4896964,
-      "Guerisons": 0,
-      "TauxDeces": 2.04,
-      "TauxGuerison": 0.0,
-      "TauxInfection": 97.96
-    },
-    {
-      "Date": "2021-10-16T00:00:00",
-      "Infection": 240387174,
-      "Deces": 4894699,
-      "Guerisons": 0,
-      "TauxDeces": 2.04,
-      "TauxGuerison": 0.0,
-      "TauxInfection": 97.96
-    },
-    {
-      "Date": "2021-10-15T00:00:00",
-      "Infection": 240070126,
-      "Deces": 4889737,
-      "Guerisons": 0,
-      "TauxDeces": 2.04,
-      "TauxGuerison": 0.0,
-      "TauxInfection": 97.96
-    },
-    {
-      "Date": "2021-10-14T00:00:00",
-      "Infection": 239607273,
-      "Deces": 4882066,
-      "Guerisons": 0,
-      "TauxDeces": 2.04,
-      "TauxGuerison": 0.0,
-      "TauxInfection": 97.96
-    },
-    {
-      "Date": "2021-10-13T00:00:00",
-      "Infection": 239166993,
-      "Deces": 4874258,
-      "Guerisons": 0,
-      "TauxDeces": 2.04,
-      "TauxGuerison": 0.0,
-      "TauxInfection": 97.96
-    },
-    {
-      "Date": "2021-10-12T00:00:00",
-      "Infection": 238704327,
-      "Deces": 4865619,
-      "Guerisons": 0,
-      "TauxDeces": 2.04,
-      "TauxGuerison": 0.0,
-      "TauxInfection": 97.96
-    },
-    {
-      "Date": "2021-10-11T00:00:00",
-      "Infection": 238271785,
-      "Deces": 4857421,
-      "Guerisons": 0,
-      "TauxDeces": 2.04,
-      "TauxGuerison": 0.0,
-      "TauxInfection": 97.96
-    },
-    {
-      "Date": "2021-10-10T00:00:00",
-      "Infection": 237878402,
-      "Deces": 4851586,
-      "Guerisons": 0,
-      "TauxDeces": 2.04,
-      "TauxGuerison": 0.0,
-      "TauxInfection": 97.96
-    },
-    {
-      "Date": "2021-10-09T00:00:00",
-      "Infection": 237577733,
-      "Deces": 4847106,
-      "Guerisons": 0,
-      "TauxDeces": 2.04,
-      "TauxGuerison": 0.0,
-      "TauxInfection": 97.96
-    },
-    {
-      "Date": "2021-10-08T00:00:00",
-      "Infection": 237248464,
-      "Deces": 4842432,
-      "Guerisons": 0,
-      "TauxDeces": 2.04,
-      "TauxGuerison": 0.0,
-      "TauxInfection": 97.96
-    },
-    {
-      "Date": "2021-10-07T00:00:00",
-      "Infection": 236769803,
-      "Deces": 4834866,
-      "Guerisons": 0,
-      "TauxDeces": 2.04,
-      "TauxGuerison": 0.0,
-      "TauxInfection": 97.96
-    },
-    {
-      "Date": "2021-10-06T00:00:00",
-      "Infection": 236337907,
-      "Deces": 4826388,
-      "Guerisons": 0,
-      "TauxDeces": 2.04,
-      "TauxGuerison": 0.0,
-      "TauxInfection": 97.96
-    },
-    {
-      "Date": "2021-10-05T00:00:00",
-      "Infection": 235824608,
-      "Deces": 4816607,
-      "Guerisons": 0,
-      "TauxDeces": 2.04,
-      "TauxGuerison": 0.0,
-      "TauxInfection": 97.96
-    },
-    {
-      "Date": "2021-10-04T00:00:00",
-      "Infection": 235407216,
-      "Deces": 4809366,
-      "Guerisons": 0,
-      "TauxDeces": 2.04,
-      "TauxGuerison": 0.0,
-      "TauxInfection": 97.96
-    },
-    {
-      "Date": "2021-10-03T00:00:00",
-      "Infection": 234948762,
-      "Deces": 4802039,
-      "Guerisons": 0,
-      "TauxDeces": 2.04,
-      "TauxGuerison": 0.0,
-      "TauxInfection": 97.96
-    },
-    {
-      "Date": "2021-10-02T00:00:00",
-      "Infection": 234656714,
-      "Deces": 4798040,
-      "Guerisons": 0,
-      "TauxDeces": 2.04,
-      "TauxGuerison": 0.0,
-      "TauxInfection": 97.96
-    },
-    {
-      "Date": "2021-10-01T00:00:00",
-      "Infection": 234315057,
-      "Deces": 4792305,
-      "Guerisons": 0,
-      "TauxDeces": 2.05,
-      "TauxGuerison": 0.0,
-      "TauxInfection": 97.95
-    },
-    {
-      "Date": "2021-09-30T00:00:00",
-      "Infection": 233770622,
-      "Deces": 4783721,
-      "Guerisons": 0,
-      "TauxDeces": 2.05,
-      "TauxGuerison": 0.0,
-      "TauxInfection": 97.95
-    },
-    {
-      "Date": "2021-09-29T00:00:00",
-      "Infection": 233285583,
-      "Deces": 4774736,
-      "Guerisons": 0,
-      "TauxDeces": 2.05,
-      "TauxGuerison": 0.0,
-      "TauxInfection": 97.95
-    },
-    {
-      "Date": "2021-09-28T00:00:00",
-      "Infection": 232783321,
-      "Deces": 4765448,
-      "Guerisons": 0,
-      "TauxDeces": 2.05,
-      "TauxGuerison": 0.0,
-      "TauxInfection": 97.95
-    },
-    {
-      "Date": "2021-09-27T00:00:00",
-      "Infection": 232336232,
-      "Deces": 4756138,
-      "Guerisons": 0,
-      "TauxDeces": 2.05,
-      "TauxGuerison": 0.0,
-      "TauxInfection": 97.95
-    },
-    {
-      "Date": "2021-09-26T00:00:00",
-      "Infection": 231848221,
-      "Deces": 4748342,
-      "Guerisons": 0,
-      "TauxDeces": 2.05,
-      "TauxGuerison": 0.0,
-      "TauxInfection": 97.95
-    },
-    {
-      "Date": "2021-09-25T00:00:00",
-      "Infection": 231517234,
-      "Deces": 4743203,
-      "Guerisons": 0,
-      "TauxDeces": 2.05,
-      "TauxGuerison": 0.0,
-      "TauxInfection": 97.95
-    },
-    {
-      "Date": "2021-09-24T00:00:00",
-      "Infection": 231153740,
-      "Deces": 4737912,
-      "Guerisons": 0,
-      "TauxDeces": 2.05,
-      "TauxGuerison": 0.0,
-      "TauxInfection": 97.95
-    },
-    {
-      "Date": "2021-09-23T00:00:00",
-      "Infection": 230603862,
-      "Deces": 4729076,
-      "Guerisons": 0,
-      "TauxDeces": 2.05,
-      "TauxGuerison": 0.0,
-      "TauxInfection": 97.95
-    },
-    {
-      "Date": "2021-09-22T00:00:00",
-      "Infection": 230092879,
-      "Deces": 4719402,
-      "Guerisons": 1917085,
-      "TauxDeces": 2.05,
-      "TauxGuerison": 0.83,
-      "TauxInfection": 97.12
-    },
-    {
-      "Date": "2021-09-21T00:00:00",
-      "Infection": 229555623,
-      "Deces": 4709325,
-      "Guerisons": 1897383,
-      "TauxDeces": 2.05,
-      "TauxGuerison": 0.83,
-      "TauxInfection": 97.12
-    },
-    {
-      "Date": "2021-09-20T00:00:00",
-      "Infection": 229086545,
-      "Deces": 4700352,
-      "Guerisons": 1880733,
-      "TauxDeces": 2.05,
-      "TauxGuerison": 0.82,
-      "TauxInfection": 97.13
-    },
-    {
-      "Date": "2021-09-19T00:00:00",
-      "Infection": 228540017,
-      "Deces": 4691849,
-      "Guerisons": 1863919,
-      "TauxDeces": 2.05,
-      "TauxGuerison": 0.82,
-      "TauxInfection": 97.13
-    },
-    {
-      "Date": "2021-09-18T00:00:00",
-      "Infection": 228181469,
-      "Deces": 4685838,
-      "Guerisons": 1840450,
-      "TauxDeces": 2.05,
-      "TauxGuerison": 0.81,
-      "TauxInfection": 97.14
-    },
-    {
-      "Date": "2021-09-17T00:00:00",
-      "Infection": 227648483,
-      "Deces": 4679137,
-      "Guerisons": 1823245,
-      "TauxDeces": 2.06,
-      "TauxGuerison": 0.8,
-      "TauxInfection": 97.14
-    }
-  ],
-  "PaysData": [
+  "_id": "coronavirus_data_db",
+  "name": "CoronavirusData",
+  "docs": [
     {
       "Date": "2021-10-17T00:00:00",
       "Pays": "Andorre",
       "Infection": 15338,
       "Deces": 130,
+      "Guerisons": 0,
+      "TauxDeces": 0.85,
+      "TauxGuerison": 0.0,
+      "TauxInfection": 99.15
+    },
+    {
+      "Date": "2021-10-17T00:00:00",
+      "Pays": "toto",
+      "Infection": 15338,
+      "Deces": 3,
+      "Guerisons": 0,
+      "TauxDeces": 0.85,
+      "TauxGuerison": 0.0,
+      "TauxInfection": 99.15
+    },
+    {
+      "Date": "2021-10-16T00:00:00",
+      "Pays": "toto",
+      "Infection": 15338,
+      "Deces": 2,
       "Guerisons": 0,
       "TauxDeces": 0.85,
       "TauxGuerison": 0.0,
@@ -63837,3 +63574,4 @@
     }
   ]
 }
+

@@ -1,0 +1,1006 @@
+{
+  "_id": "coronavirus_data_db",
+  "name": "CoronavirusData",
+  "docs": [
+    {
+      "Date": "2021-10-17T00:00:00",
+      "Pays": "Andorre",
+      "Infection": 15338,
+      "Deces": 130,
+      "Guerisons": 0,
+      "TauxDeces": 0.85,
+      "TauxGuerison": 0.0,
+      "TauxInfection": 99.15
+    },
+    {
+      "Date": "2021-10-17T00:00:00",
+      "Pays": "toto",
+      "Infection": 15338,
+      "Deces": 3,
+      "Guerisons": 0,
+      "TauxDeces": 0.85,
+      "TauxGuerison": 0.0,
+      "TauxInfection": 99.15
+    },
+    {
+      "Date": "2021-10-16T00:00:00",
+      "Pays": "toto",
+      "Infection": 15338,
+      "Deces": 2,
+      "Guerisons": 0,
+      "TauxDeces": 0.85,
+      "TauxGuerison": 0.0,
+      "TauxInfection": 99.15
+    },
+    {
+      "Date": "2021-10-17T00:00:00",
+      "Pays": "Émirats Arabes Unis",
+      "Infection": 738586,
+      "Deces": 2120,
+      "Guerisons": 0,
+      "TauxDeces": 0.29,
+      "TauxGuerison": 0.0,
+      "TauxInfection": 99.71
+    },
+    {
+      "Date": "2021-10-17T00:00:00",
+      "Pays": "Afghanistan",
+      "Infection": 155764,
+      "Deces": 7243,
+      "Guerisons": 0,
+      "TauxDeces": 4.65,
+      "TauxGuerison": 0.0,
+      "TauxInfection": 95.35
+    },
+    {
+      "Date": "2021-10-17T00:00:00",
+      "Pays": "Antigua-et-Barbuda",
+      "Infection": 3888,
+      "Deces": 95,
+      "Guerisons": 0,
+      "TauxDeces": 2.44,
+      "TauxGuerison": 0.0,
+      "TauxInfection": 97.56
+    },
+    {
+      "Date": "2021-10-17T00:00:00",
+      "Pays": "Albanie",
+      "Infection": 177536,
+      "Deces": 2810,
+      "Guerisons": 0,
+      "TauxDeces": 1.58,
+      "TauxGuerison": 0.0,
+      "TauxInfection": 98.42
+    },
+    {
+      "Date": "2021-10-17T00:00:00",
+      "Pays": "Arménie",
+      "Infection": 281991,
+      "Deces": 5778,
+      "Guerisons": 0,
+      "TauxDeces": 2.05,
+      "TauxGuerison": 0.0,
+      "TauxInfection": 97.95
+    },
+    {
+      "Date": "2021-10-17T00:00:00",
+      "Pays": "Angola",
+      "Infection": 62789,
+      "Deces": 1662,
+      "Guerisons": 0,
+      "TauxDeces": 2.65,
+      "TauxGuerison": 0.0,
+      "TauxInfection": 97.35
+    },
+    {
+      "Date": "2021-10-17T00:00:00",
+      "Pays": "Argentine",
+      "Infection": 5272151,
+      "Deces": 115663,
+      "Guerisons": 0,
+      "TauxDeces": 2.19,
+      "TauxGuerison": 0.0,
+      "TauxInfection": 97.81
+    },
+    {
+      "Date": "2021-10-17T00:00:00",
+      "Pays": "Autriche",
+      "Infection": 775782,
+      "Deces": 11167,
+      "Guerisons": 0,
+      "TauxDeces": 1.44,
+      "TauxGuerison": 0.0,
+      "TauxInfection": 98.56
+    },
+    {
+      "Date": "2021-10-17T00:00:00",
+      "Pays": "Australie",
+      "Infection": 143204,
+      "Deces": 1532,
+      "Guerisons": 0,
+      "TauxDeces": 1.07,
+      "TauxGuerison": 0.0,
+      "TauxInfection": 98.93
+    },
+    {
+      "Date": "2021-10-17T00:00:00",
+      "Pays": "Azerbaïdjan",
+      "Infection": 500311,
+      "Deces": 6746,
+      "Guerisons": 0,
+      "TauxDeces": 1.35,
+      "TauxGuerison": 0.0,
+      "TauxInfection": 98.65
+    },
+    {
+      "Date": "2021-10-17T00:00:00",
+      "Pays": "Bosnie-Herzégovine",
+      "Infection": 243914,
+      "Deces": 11110,
+      "Guerisons": 0,
+      "TauxDeces": 4.55,
+      "TauxGuerison": 0.0,
+      "TauxInfection": 95.45
+    },
+    {
+      "Date": "2021-10-17T00:00:00",
+      "Pays": "Barbade",
+      "Infection": 12773,
+      "Deces": 114,
+      "Guerisons": 0,
+      "TauxDeces": 0.89,
+      "TauxGuerison": 0.0,
+      "TauxInfection": 99.11
+    },
+    {
+      "Date": "2021-10-17T00:00:00",
+      "Pays": "Bangladesh",
+      "Infection": 1565174,
+      "Deces": 27752,
+      "Guerisons": 0,
+      "TauxDeces": 1.77,
+      "TauxGuerison": 0.0,
+      "TauxInfection": 98.23
+    },
+    {
+      "Date": "2021-10-17T00:00:00",
+      "Pays": "Belgique",
+      "Infection": 1279869,
+      "Deces": 25747,
+      "Guerisons": 0,
+      "TauxDeces": 2.01,
+      "TauxGuerison": 0.0,
+      "TauxInfection": 97.99
+    },
+    {
+      "Date": "2021-10-17T00:00:00",
+      "Pays": "Burkina Faso",
+      "Infection": 14686,
+      "Deces": 203,
+      "Guerisons": 0,
+      "TauxDeces": 1.38,
+      "TauxGuerison": 0.0,
+      "TauxInfection": 98.62
+    },
+    {
+      "Date": "2021-10-17T00:00:00",
+      "Pays": "Bulgarie",
+      "Infection": 539619,
+      "Deces": 22231,
+      "Guerisons": 0,
+      "TauxDeces": 4.12,
+      "TauxGuerison": 0.0,
+      "TauxInfection": 95.88
+    },
+    {
+      "Date": "2021-10-17T00:00:00",
+      "Pays": "Bahreïn",
+      "Infection": 276030,
+      "Deces": 1391,
+      "Guerisons": 0,
+      "TauxDeces": 0.5,
+      "TauxGuerison": 0.0,
+      "TauxInfection": 99.5
+    },
+    {
+      "Date": "2021-10-17T00:00:00",
+      "Pays": "Burundi",
+      "Infection": 19555,
+      "Deces": 38,
+      "Guerisons": 0,
+      "TauxDeces": 0.19,
+      "TauxGuerison": 0.0,
+      "TauxInfection": 99.81
+    },
+    {
+      "Date": "2021-10-17T00:00:00",
+      "Pays": "Bénin",
+      "Infection": 24560,
+      "Deces": 161,
+      "Guerisons": 0,
+      "TauxDeces": 0.66,
+      "TauxGuerison": 0.0,
+      "TauxInfection": 99.34
+    },
+    {
+      "Date": "2021-10-17T00:00:00",
+      "Pays": "Saint Barthélemy",
+      "Infection": 1658,
+      "Deces": 6,
+      "Guerisons": 0,
+      "TauxDeces": 0.36,
+      "TauxGuerison": 0.0,
+      "TauxInfection": 99.64
+    },
+    {
+      "Date": "2021-10-17T00:00:00",
+      "Pays": "Brunéi Darussalam",
+      "Infection": 10356,
+      "Deces": 68,
+      "Guerisons": 0,
+      "TauxDeces": 0.66,
+      "TauxGuerison": 0.0,
+      "TauxInfection": 99.34
+    },
+    {
+      "Date": "2021-10-17T00:00:00",
+      "Pays": "Bolivie",
+      "Infection": 506477,
+      "Deces": 18832,
+      "Guerisons": 0,
+      "TauxDeces": 3.72,
+      "TauxGuerison": 0.0,
+      "TauxInfection": 96.28
+    },
+    {
+      "Date": "2021-10-17T00:00:00",
+      "Pays": "Brésil",
+      "Infection": 21638726,
+      "Deces": 603152,
+      "Guerisons": 0,
+      "TauxDeces": 2.79,
+      "TauxGuerison": 0.0,
+      "TauxInfection": 97.21
+    },
+    {
+      "Date": "2021-10-17T00:00:00",
+      "Pays": "Bahamas",
+      "Infection": 21580,
+      "Deces": 590,
+      "Guerisons": 0,
+      "TauxDeces": 2.73,
+      "TauxGuerison": 0.0,
+      "TauxInfection": 97.27
+    },
+    {
+      "Date": "2021-10-17T00:00:00",
+      "Pays": "Bhoutan",
+      "Infection": 2617,
+      "Deces": 3,
+      "Guerisons": 0,
+      "TauxDeces": 0.11,
+      "TauxGuerison": 0.0,
+      "TauxInfection": 99.89
+    },
+    {
+      "Date": "2021-10-17T00:00:00",
+      "Pays": "Botswana",
+      "Infection": 181856,
+      "Deces": 2386,
+      "Guerisons": 0,
+      "TauxDeces": 1.31,
+      "TauxGuerison": 0.0,
+      "TauxInfection": 98.69
+    },
+    {
+      "Date": "2021-10-17T00:00:00",
+      "Pays": "Bélarus",
+      "Infection": 571987,
+      "Deces": 4402,
+      "Guerisons": 0,
+      "TauxDeces": 0.77,
+      "TauxGuerison": 0.0,
+      "TauxInfection": 99.23
+    },
+    {
+      "Date": "2021-10-17T00:00:00",
+      "Pays": "Belize",
+      "Infection": 23990,
+      "Deces": 461,
+      "Guerisons": 0,
+      "TauxDeces": 1.92,
+      "TauxGuerison": 0.0,
+      "TauxInfection": 98.08
+    },
+    {
+      "Date": "2021-10-17T00:00:00",
+      "Pays": "Canada",
+      "Infection": 1686625,
+      "Deces": 28534,
+      "Guerisons": 0,
+      "TauxDeces": 1.69,
+      "TauxGuerison": 0.0,
+      "TauxInfection": 98.31
+    },
+    {
+      "Date": "2021-10-17T00:00:00",
+      "Pays": "Rép. Dém. du Congo",
+      "Infection": 57269,
+      "Deces": 1089,
+      "Guerisons": 0,
+      "TauxDeces": 1.9,
+      "TauxGuerison": 0.0,
+      "TauxInfection": 98.1
+    },
+    {
+      "Date": "2021-10-17T00:00:00",
+      "Pays": "République Centrafricaine",
+      "Infection": 11469,
+      "Deces": 100,
+      "Guerisons": 0,
+      "TauxDeces": 0.87,
+      "TauxGuerison": 0.0,
+      "TauxInfection": 99.13
+    },
+    {
+      "Date": "2021-10-17T00:00:00",
+      "Pays": "Congo (Brazzaville)",
+      "Infection": 15514,
+      "Deces": 222,
+      "Guerisons": 0,
+      "TauxDeces": 1.43,
+      "TauxGuerison": 0.0,
+      "TauxInfection": 98.57
+    },
+    {
+      "Date": "2021-10-17T00:00:00",
+      "Pays": "Suisse",
+      "Infection": 854591,
+      "Deces": 11156,
+      "Guerisons": 0,
+      "TauxDeces": 1.31,
+      "TauxGuerison": 0.0,
+      "TauxInfection": 98.69
+    },
+    {
+      "Date": "2021-10-17T00:00:00",
+      "Pays": "Côte d'Ivoire",
+      "Infection": 60982,
+      "Deces": 674,
+      "Guerisons": 0,
+      "TauxDeces": 1.11,
+      "TauxGuerison": 0.0,
+      "TauxInfection": 98.89
+    },
+    {
+      "Date": "2021-10-17T00:00:00",
+      "Pays": "Chili",
+      "Infection": 1669236,
+      "Deces": 37597,
+      "Guerisons": 0,
+      "TauxDeces": 2.25,
+      "TauxGuerison": 0.0,
+      "TauxInfection": 97.75
+    },
+    {
+      "Date": "2021-10-17T00:00:00",
+      "Pays": "Cameroun",
+      "Infection": 98402,
+      "Deces": 1550,
+      "Guerisons": 0,
+      "TauxDeces": 1.58,
+      "TauxGuerison": 0.0,
+      "TauxInfection": 98.42
+    },
+    {
+      "Date": "2021-10-17T00:00:00",
+      "Pays": "Chine",
+      "Infection": 96523,
+      "Deces": 4636,
+      "Guerisons": 0,
+      "TauxDeces": 4.8,
+      "TauxGuerison": 0.0,
+      "TauxInfection": 95.2
+    },
+    {
+      "Date": "2021-10-17T00:00:00",
+      "Pays": "Colombie",
+      "Infection": 4980233,
+      "Deces": 126830,
+      "Guerisons": 0,
+      "TauxDeces": 2.55,
+      "TauxGuerison": 0.0,
+      "TauxInfection": 97.45
+    },
+    {
+      "Date": "2021-10-17T00:00:00",
+      "Pays": "Costa Rica",
+      "Infection": 551144,
+      "Deces": 6797,
+      "Guerisons": 0,
+      "TauxDeces": 1.23,
+      "TauxGuerison": 0.0,
+      "TauxInfection": 98.77
+    },
+    {
+      "Date": "2021-10-17T00:00:00",
+      "Pays": "Cuba",
+      "Infection": 932768,
+      "Deces": 8037,
+      "Guerisons": 0,
+      "TauxDeces": 0.86,
+      "TauxGuerison": 0.0,
+      "TauxInfection": 99.14
+    },
+    {
+      "Date": "2021-10-17T00:00:00",
+      "Pays": "Cap-vert",
+      "Infection": 38035,
+      "Deces": 347,
+      "Guerisons": 0,
+      "TauxDeces": 0.91,
+      "TauxGuerison": 0.0,
+      "TauxInfection": 99.09
+    },
+    {
+      "Date": "2021-10-17T00:00:00",
+      "Pays": "Chypre",
+      "Infection": 121995,
+      "Deces": 562,
+      "Guerisons": 0,
+      "TauxDeces": 0.46,
+      "TauxGuerison": 0.0,
+      "TauxInfection": 99.54
+    },
+    {
+      "Date": "2021-10-17T00:00:00",
+      "Pays": "République Tchèque",
+      "Infection": 1708925,
+      "Deces": 30545,
+      "Guerisons": 0,
+      "TauxDeces": 1.79,
+      "TauxGuerison": 0.0,
+      "TauxInfection": 98.21
+    },
+    {
+      "Date": "2021-10-17T00:00:00",
+      "Pays": "Allemagne",
+      "Infection": 4378445,
+      "Deces": 94623,
+      "Guerisons": 0,
+      "TauxDeces": 2.16,
+      "TauxGuerison": 0.0,
+      "TauxInfection": 97.84
+    },
+    {
+      "Date": "2021-10-17T00:00:00",
+      "Pays": "Djibouti",
+      "Infection": 13383,
+      "Deces": 179,
+      "Guerisons": 0,
+      "TauxDeces": 1.34,
+      "TauxGuerison": 0.0,
+      "TauxInfection": 98.66
+    },
+    {
+      "Date": "2021-10-17T00:00:00",
+      "Pays": "Danemark",
+      "Infection": 369305,
+      "Deces": 2685,
+      "Guerisons": 0,
+      "TauxDeces": 0.73,
+      "TauxGuerison": 0.0,
+      "TauxInfection": 99.27
+    },
+    {
+      "Date": "2021-10-17T00:00:00",
+      "Pays": "Dominique",
+      "Infection": 4153,
+      "Deces": 28,
+      "Guerisons": 0,
+      "TauxDeces": 0.67,
+      "TauxGuerison": 0.0,
+      "TauxInfection": 99.33
+    },
+    {
+      "Date": "2021-10-17T00:00:00",
+      "Pays": "République Dominicaine",
+      "Infection": 369700,
+      "Deces": 4084,
+      "Guerisons": 0,
+      "TauxDeces": 1.1,
+      "TauxGuerison": 0.0,
+      "TauxInfection": 98.9
+    },
+    {
+      "Date": "2021-10-17T00:00:00",
+      "Pays": "Algérie",
+      "Infection": 205199,
+      "Deces": 5870,
+      "Guerisons": 0,
+      "TauxDeces": 2.86,
+      "TauxGuerison": 0.0,
+      "TauxInfection": 97.14
+    },
+    {
+      "Date": "2021-10-17T00:00:00",
+      "Pays": "Équateur",
+      "Infection": 513026,
+      "Deces": 32899,
+      "Guerisons": 0,
+      "TauxDeces": 6.41,
+      "TauxGuerison": 0.0,
+      "TauxInfection": 93.59
+    },
+    {
+      "Date": "2021-10-17T00:00:00",
+      "Pays": "Estonie",
+      "Infection": 172514,
+      "Deces": 1426,
+      "Guerisons": 0,
+      "TauxDeces": 0.83,
+      "TauxGuerison": 0.0,
+      "TauxInfection": 99.17
+    },
+    {
+      "Date": "2021-10-17T00:00:00",
+      "Pays": "Égypte",
+      "Infection": 317585,
+      "Deces": 17926,
+      "Guerisons": 0,
+      "TauxDeces": 5.64,
+      "TauxGuerison": 0.0,
+      "TauxInfection": 94.36
+    },
+    {
+      "Date": "2021-10-17T00:00:00",
+      "Pays": "Érythrée",
+      "Infection": 6773,
+      "Deces": 44,
+      "Guerisons": 0,
+      "TauxDeces": 0.65,
+      "TauxGuerison": 0.0,
+      "TauxInfection": 99.35
+    },
+    {
+      "Date": "2021-10-17T00:00:00",
+      "Pays": "Espagne",
+      "Infection": 4984386,
+      "Deces": 86974,
+      "Guerisons": 0,
+      "TauxDeces": 1.74,
+      "TauxGuerison": 0.0,
+      "TauxInfection": 98.26
+    },
+    {
+      "Date": "2021-10-17T00:00:00",
+      "Pays": "Éthiopie",
+      "Infection": 358739,
+      "Deces": 6197,
+      "Guerisons": 0,
+      "TauxDeces": 1.73,
+      "TauxGuerison": 0.0,
+      "TauxInfection": 98.27
+    },
+    {
+      "Date": "2021-10-17T00:00:00",
+      "Pays": "Finlande",
+      "Infection": 149897,
+      "Deces": 1116,
+      "Guerisons": 0,
+      "TauxDeces": 0.74,
+      "TauxGuerison": 0.0,
+      "TauxInfection": 99.26
+    },
+    {
+      "Date": "2021-10-17T00:00:00",
+      "Pays": "Fidji",
+      "Infection": 51701,
+      "Deces": 663,
+      "Guerisons": 0,
+      "TauxDeces": 1.28,
+      "TauxGuerison": 0.0,
+      "TauxInfection": 98.72
+    },
+    {
+      "Date": "2021-10-17T00:00:00",
+      "Pays": "Îles Féroé",
+      "Infection": 1332,
+      "Deces": 2,
+      "Guerisons": 0,
+      "TauxDeces": 0.15,
+      "TauxGuerison": 0.0,
+      "TauxInfection": 99.85
+    },
+    {
+      "Date": "2021-10-17T00:00:00",
+      "Pays": "France",
+      "Infection": 6911013,
+      "Deces": 114943,
+      "Guerisons": 0,
+      "TauxDeces": 1.66,
+      "TauxGuerison": 0.0,
+      "TauxInfection": 98.34
+    },
+    {
+      "Date": "2021-10-17T00:00:00",
+      "Pays": "Gabon",
+      "Infection": 33442,
+      "Deces": 213,
+      "Guerisons": 0,
+      "TauxDeces": 0.64,
+      "TauxGuerison": 0.0,
+      "TauxInfection": 99.36
+    },
+    {
+      "Date": "2021-10-17T00:00:00",
+      "Pays": "Royaume-Uni",
+      "Infection": 8438131,
+      "Deces": 138842,
+      "Guerisons": 0,
+      "TauxDeces": 1.65,
+      "TauxGuerison": 0.0,
+      "TauxInfection": 98.35
+    },
+    {
+      "Date": "2021-10-17T00:00:00",
+      "Pays": "Grenade",
+      "Infection": 5734,
+      "Deces": 192,
+      "Guerisons": 0,
+      "TauxDeces": 3.35,
+      "TauxGuerison": 0.0,
+      "TauxInfection": 96.65
+    },
+    {
+      "Date": "2021-10-17T00:00:00",
+      "Pays": "Géorgie",
+      "Infection": 662334,
+      "Deces": 9468,
+      "Guerisons": 0,
+      "TauxDeces": 1.43,
+      "TauxGuerison": 0.0,
+      "TauxInfection": 98.57
+    },
+    {
+      "Date": "2021-10-17T00:00:00",
+      "Pays": "Guyane Française",
+      "Infection": 43255,
+      "Deces": 293,
+      "Guerisons": 0,
+      "TauxDeces": 0.68,
+      "TauxGuerison": 0.0,
+      "TauxInfection": 99.32
+    },
+    {
+      "Date": "2021-10-17T00:00:00",
+      "Pays": "Ghana",
+      "Infection": 129258,
+      "Deces": 1165,
+      "Guerisons": 0,
+      "TauxDeces": 0.9,
+      "TauxGuerison": 0.0,
+      "TauxInfection": 99.1
+    },
+    {
+      "Date": "2021-10-17T00:00:00",
+      "Pays": "Gibraltar",
+      "Infection": 5758,
+      "Deces": 98,
+      "Guerisons": 0,
+      "TauxDeces": 1.7,
+      "TauxGuerison": 0.0,
+      "TauxInfection": 98.3
+    },
+    {
+      "Date": "2021-10-17T00:00:00",
+      "Pays": "Gambie",
+      "Infection": 9946,
+      "Deces": 339,
+      "Guerisons": 0,
+      "TauxDeces": 3.41,
+      "TauxGuerison": 0.0,
+      "TauxInfection": 96.59
+    },
+    {
+      "Date": "2021-10-17T00:00:00",
+      "Pays": "Guinée",
+      "Infection": 30572,
+      "Deces": 385,
+      "Guerisons": 0,
+      "TauxDeces": 1.26,
+      "TauxGuerison": 0.0,
+      "TauxInfection": 98.74
+    },
+    {
+      "Date": "2021-10-17T00:00:00",
+      "Pays": "Guadeloupe",
+      "Infection": 53836,
+      "Deces": 800,
+      "Guerisons": 0,
+      "TauxDeces": 1.49,
+      "TauxGuerison": 0.0,
+      "TauxInfection": 98.51
+    },
+    {
+      "Date": "2021-10-17T00:00:00",
+      "Pays": "Guinée Équatoriale",
+      "Infection": 12840,
+      "Deces": 156,
+      "Guerisons": 0,
+      "TauxDeces": 1.21,
+      "TauxGuerison": 0.0,
+      "TauxInfection": 98.79
+    },
+    {
+      "Date": "2021-10-17T00:00:00",
+      "Pays": "Grèce",
+      "Infection": 692197,
+      "Deces": 15348,
+      "Guerisons": 0,
+      "TauxDeces": 2.22,
+      "TauxGuerison": 0.0,
+      "TauxInfection": 97.78
+    },
+    {
+      "Date": "2021-10-17T00:00:00",
+      "Pays": "Guatemala",
+      "Infection": 587687,
+      "Deces": 14266,
+      "Guerisons": 0,
+      "TauxDeces": 2.43,
+      "TauxGuerison": 0.0,
+      "TauxInfection": 97.57
+    },
+    {
+      "Date": "2021-10-17T00:00:00",
+      "Pays": "Guinée-Bissau",
+      "Infection": 6129,
+      "Deces": 141,
+      "Guerisons": 0,
+      "TauxDeces": 2.3,
+      "TauxGuerison": 0.0,
+      "TauxInfection": 97.7
+    },
+    {
+      "Date": "2021-10-17T00:00:00",
+      "Pays": "Guyana",
+      "Infection": 34362,
+      "Deces": 866,
+      "Guerisons": 0,
+      "TauxDeces": 2.52,
+      "TauxGuerison": 0.0,
+      "TauxInfection": 97.48
+    },
+    {
+      "Date": "2021-10-17T00:00:00",
+      "Pays": "Hong-Kong",
+      "Infection": 12294,
+      "Deces": 213,
+      "Guerisons": 0,
+      "TauxDeces": 1.73,
+      "TauxGuerison": 0.0,
+      "TauxInfection": 98.27
+    },
+    {
+      "Date": "2021-10-17T00:00:00",
+      "Pays": "Honduras",
+      "Infection": 372179,
+      "Deces": 10096,
+      "Guerisons": 0,
+      "TauxDeces": 2.71,
+      "TauxGuerison": 0.0,
+      "TauxInfection": 97.29
+    },
+    {
+      "Date": "2021-10-17T00:00:00",
+      "Pays": "Croatie",
+      "Infection": 426613,
+      "Deces": 8877,
+      "Guerisons": 0,
+      "TauxDeces": 2.08,
+      "TauxGuerison": 0.0,
+      "TauxInfection": 97.92
+    },
+    {
+      "Date": "2021-10-17T00:00:00",
+      "Pays": "Haïti",
+      "Infection": 22933,
+      "Deces": 657,
+      "Guerisons": 0,
+      "TauxDeces": 2.86,
+      "TauxGuerison": 0.0,
+      "TauxInfection": 97.14
+    },
+    {
+      "Date": "2021-10-17T00:00:00",
+      "Pays": "Hongrie",
+      "Infection": 833115,
+      "Deces": 30351,
+      "Guerisons": 0,
+      "TauxDeces": 3.64,
+      "TauxGuerison": 0.0,
+      "TauxInfection": 96.36
+    },
+    {
+      "Date": "2021-10-17T00:00:00",
+      "Pays": "Indonésie",
+      "Infection": 4234758,
+      "Deces": 142952,
+      "Guerisons": 0,
+      "TauxDeces": 3.38,
+      "TauxGuerison": 0.0,
+      "TauxInfection": 96.62
+    },
+    {
+      "Date": "2021-10-17T00:00:00",
+      "Pays": "Irlande",
+      "Infection": 415114,
+      "Deces": 5306,
+      "Guerisons": 0,
+      "TauxDeces": 1.28,
+      "TauxGuerison": 0.0,
+      "TauxInfection": 98.72
+    },
+    {
+      "Date": "2021-10-17T00:00:00",
+      "Pays": "Israël",
+      "Infection": 1315809,
+      "Deces": 7983,
+      "Guerisons": 0,
+      "TauxDeces": 0.61,
+      "TauxGuerison": 0.0,
+      "TauxInfection": 99.39
+    },
+    {
+      "Date": "2021-10-17T00:00:00",
+      "Pays": "Inde",
+      "Infection": 34067719,
+      "Deces": 452124,
+      "Guerisons": 0,
+      "TauxDeces": 1.33,
+      "TauxGuerison": 0.0,
+      "TauxInfection": 98.67
+    },
+    {
+      "Date": "2021-10-17T00:00:00",
+      "Pays": "Iraq",
+      "Infection": 2033737,
+      "Deces": 22738,
+      "Guerisons": 0,
+      "TauxDeces": 1.12,
+      "TauxGuerison": 0.0,
+      "TauxInfection": 98.88
+    },
+    {
+      "Date": "2021-10-17T00:00:00",
+      "Pays": "Iran",
+      "Infection": 5784815,
+      "Deces": 124075,
+      "Guerisons": 0,
+      "TauxDeces": 2.14,
+      "TauxGuerison": 0.0,
+      "TauxInfection": 97.86
+    },
+    {
+      "Date": "2021-10-17T00:00:00",
+      "Pays": "Islande",
+      "Infection": 12455,
+      "Deces": 33,
+      "Guerisons": 0,
+      "TauxDeces": 0.26,
+      "TauxGuerison": 0.0,
+      "TauxInfection": 99.74
+    },
+    {
+      "Date": "2021-10-17T00:00:00",
+      "Pays": "Italie",
+      "Infection": 4715464,
+      "Deces": 131517,
+      "Guerisons": 0,
+      "TauxDeces": 2.79,
+      "TauxGuerison": 0.0,
+      "TauxInfection": 97.21
+    },
+    {
+      "Date": "2021-10-17T00:00:00",
+      "Pays": "Jamaïque",
+      "Infection": 87232,
+      "Deces": 2103,
+      "Guerisons": 0,
+      "TauxDeces": 2.41,
+      "TauxGuerison": 0.0,
+      "TauxInfection": 97.59
+    },
+    {
+      "Date": "2021-10-17T00:00:00",
+      "Pays": "Jordanie",
+      "Infection": 840117,
+      "Deces": 10865,
+      "Guerisons": 0,
+      "TauxDeces": 1.29,
+      "TauxGuerison": 0.0,
+      "TauxInfection": 98.71
+    },
+    {
+      "Date": "2021-10-17T00:00:00",
+      "Pays": "Japon",
+      "Infection": 1715504,
+      "Deces": 18103,
+      "Guerisons": 0,
+      "TauxDeces": 1.06,
+      "TauxGuerison": 0.0,
+      "TauxInfection": 98.94
+    },
+    {
+      "Date": "2021-10-17T00:00:00",
+      "Pays": "Kenya",
+      "Infection": 251959,
+      "Deces": 5215,
+      "Guerisons": 0,
+      "TauxDeces": 2.07,
+      "TauxGuerison": 0.0,
+      "TauxInfection": 97.93
+    },
+    {
+      "Date": "2021-10-17T00:00:00",
+      "Pays": "Kirghizistan",
+      "Infection": 179845,
+      "Deces": 2634,
+      "Guerisons": 0,
+      "TauxDeces": 1.46,
+      "TauxGuerison": 0.0,
+      "TauxInfection": 98.54
+    },
+    {
+      "Date": "2021-10-17T00:00:00",
+      "Pays": "Cambodge",
+      "Infection": 116665,
+      "Deces": 2658,
+      "Guerisons": 0,
+      "TauxDeces": 2.28,
+      "TauxGuerison": 0.0,
+      "TauxInfection": 97.72
+    },
+    {
+      "Date": "2021-10-17T00:00:00",
+      "Pays": "Kiribati",
+      "Infection": 2,
+      "Deces": 0,
+      "Guerisons": 0,
+      "TauxDeces": 0.0,
+      "TauxGuerison": 0.0,
+      "TauxInfection": 100.0
+    },
+    {
+      "Date": "2021-10-17T00:00:00",
+      "Pays": "Comores",
+      "Infection": 4186,
+      "Deces": 147,
+      "Guerisons": 0,
+      "TauxDeces": 3.51,
+      "TauxGuerison": 0.0,
+      "TauxInfection": 96.49
+    },
+    {
+      "Date": "2021-10-17T00:00:00",
+      "Pays": "Saint-Kitts-et-Nevis",
+      "Infection": 2550,
+      "Deces": 21,
+      "Guerisons": 0,
+      "TauxDeces": 0.82,
+      "TauxGuerison": 0.0,
+      "TauxInfection": 99.18
+    },
+    {
+      "Date": "2021-10-17T00:00:00",
+      "Pays": "Corée du Sud",
+      "Infection": 342396,
+      "Deces": 2660,
+      "Guerisons": 0,
+      "TauxDeces": 0.78,
+      "TauxGuerison": 0.0,
+      "TauxInfection": 99.22
+    }
+  ]
+}

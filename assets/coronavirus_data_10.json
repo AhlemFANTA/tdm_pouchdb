@@ -1,0 +1,107 @@
+{
+  "_id": "coronavirus_data_db",
+  "name": "CoronavirusData",
+  "docs": [
+    {
+      "Date": "2021-10-17T00:00:00",
+      "Pays": "Andorre",
+      "Infection": 15338,
+      "Deces": 130,
+      "Guerisons": 0,
+      "TauxDeces": 0.85,
+      "TauxGuerison": 0.0,
+      "TauxInfection": 99.15
+    },
+    {
+      "Date": "2021-10-17T00:00:00",
+      "Pays": "toto",
+      "Infection": 15338,
+      "Deces": 3,
+      "Guerisons": 0,
+      "TauxDeces": 0.85,
+      "TauxGuerison": 0.0,
+      "TauxInfection": 99.15
+    },
+    {
+      "Date": "2021-10-16T00:00:00",
+      "Pays": "toto",
+      "Infection": 15338,
+      "Deces": 2,
+      "Guerisons": 0,
+      "TauxDeces": 0.85,
+      "TauxGuerison": 0.0,
+      "TauxInfection": 99.15
+    },
+    {
+      "Date": "2021-10-17T00:00:00",
+      "Pays": "Émirats Arabes Unis",
+      "Infection": 738586,
+      "Deces": 2120,
+      "Guerisons": 0,
+      "TauxDeces": 0.29,
+      "TauxGuerison": 0.0,
+      "TauxInfection": 99.71
+    },
+    {
+      "Date": "2021-10-17T00:00:00",
+      "Pays": "Afghanistan",
+      "Infection": 155764,
+      "Deces": 7243,
+      "Guerisons": 0,
+      "TauxDeces": 4.65,
+      "TauxGuerison": 0.0,
+      "TauxInfection": 95.35
+    },
+    {
+      "Date": "2021-10-17T00:00:00",
+      "Pays": "Antigua-et-Barbuda",
+      "Infection": 3888,
+      "Deces": 95,
+      "Guerisons": 0,
+      "TauxDeces": 2.44,
+      "TauxGuerison": 0.0,
+      "TauxInfection": 97.56
+    },
+    {
+      "Date": "2021-10-17T00:00:00",
+      "Pays": "Albanie",
+      "Infection": 177536,
+      "Deces": 2810,
+      "Guerisons": 0,
+      "TauxDeces": 1.58,
+      "TauxGuerison": 0.0,
+      "TauxInfection": 98.42
+    },
+    {
+      "Date": "2021-10-17T00:00:00",
+      "Pays": "Arménie",
+      "Infection": 281991,
+      "Deces": 5778,
+      "Guerisons": 0,
+      "TauxDeces": 2.05,
+      "TauxGuerison": 0.0,
+      "TauxInfection": 97.95
+    },
+    {
+      "Date": "2021-10-17T00:00:00",
+      "Pays": "Angola",
+      "Infection": 62789,
+      "Deces": 1662,
+      "Guerisons": 0,
+      "TauxDeces": 2.65,
+      "TauxGuerison": 0.0,
+      "TauxInfection": 97.35
+    },
+    {
+      "Date": "2021-10-17T00:00:00",
+      "Pays": "Argentine",
+      "Infection": 5272151,
+      "Deces": 115663,
+      "Guerisons": 0,
+      "TauxDeces": 2.19,
+      "TauxGuerison": 0.0,
+      "TauxInfection": 97.81
+    }
+  ]
+}
+

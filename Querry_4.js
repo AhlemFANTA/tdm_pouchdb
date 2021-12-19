@@ -2,17 +2,10 @@
 const PouchDB = require('pouchdb');
 PouchDB.plugin(require('pouchdb-find'));
 
-const data = './assets/coronavirus_data_6388.json';
+const data = './assets/coronavirus_data_10.json';
 
 //Creating local database object
 const db_local = new PouchDB('coronavirus_data');
-
-//Creating remote database object
-const db_Remote = new PouchDB('http://root:root@localhost:5984/coronavirus_data');
-
-//Replicating a local database to Remote
-PouchDB.replicate(db_local, db_Remote);
-console.log("Database replicated successfully");
 
 //Inserting data
 const db = db_local;
@@ -32,15 +25,14 @@ db.bulkDocs(doc).then(function (res) {
 }).then(function (res) {
     console.log('INDEX CREE PAR DATE');
 
-    //find querry
-    return db.find({
-        selector: {'Pays': {$eq: 'Tunisie'}},
-        fields: ['_id', 'Pays']
-    });
+
+    // 4- Quel est le taux d’infection le plus élevé  en Suisse ?
+
 
 }).then(function (res) {
     console.log("RES: ", res);
-
+    var duree = Date.now() - debut;
+    console.log("Duree en millisecondes: ", duree +"s");
 }).then(function (res) {
     console.log('REMOVING DB');
     db.destroy();
