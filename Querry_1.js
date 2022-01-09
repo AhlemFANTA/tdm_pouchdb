@@ -2,7 +2,9 @@
 const PouchDB = require('pouchdb');
 PouchDB.plugin(require('pouchdb-find'));
 
-const data = './assets/coronavirus_data_10.json';
+const dataSize = process.argv.length === 3? process.argv[2] : 10;
+const data = './assets/coronavirus_data_'+dataSize+'.json';
+console.log("*** DATA SET:", data);
 
 //Creating local database object
 const db_local = new PouchDB('coronavirus_data');
@@ -37,17 +39,14 @@ db.bulkDocs(doc).then(function (res) {
         return sum(values);
     };
     debut = Date.now();
-    return db.query({map: map, reduce: reduce}, {reduce: true, group: true, group_level: 1},
-        function (err, response) {
-            console.log(JSON.stringify(response.rows));
-        });
+    return db.query({map: map, reduce: reduce}, {reduce: true, group: true, group_level: 1});
 
 }).then(function (res) {
-    console.log("RES: ", res);
     var duree = Date.now() - debut;
-    console.log("Duree en millisecondes: ", duree +"s");
+    var out = res.rows.map(function(item) {return {Pays: item.key, nbDeces: item.value}; })
+    console.log("RES: ", JSON.stringify(out, null, 2));
+    console.log("Duree en millisecondes: ", duree );
 }).then(function (res) {
-    console.log('REMOVING DB');
     db.destroy();
 }).catch(function (err) {
     console.log("ERROR", err);

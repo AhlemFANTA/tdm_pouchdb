@@ -2,7 +2,9 @@
 const PouchDB = require('pouchdb');
 PouchDB.plugin(require('pouchdb-find'));
 
-const data='./assets/coronavirus_data_10.json';
+const dataSize = process.argv.length === 3? process.argv[2] : 10;
+const data = './assets/coronavirus_data_'+dataSize+'.json';
+console.log("*** DATA SET:", data);
 
 //Creating local database object
 const db_local = new PouchDB('coronavirus_data');
@@ -26,31 +28,20 @@ db.bulkDocs(doc).then(function (res) {
     console.log('INDEX CREE PAR DATE');
 
 
-/*
-    // 2- Quel est le taux de décès maximal sur toute la période ?
-    var mapQ2 = function (doc) {
-        emit("ALL", doc.TauxDeces );
-    };
-
-    var reduceQ2 = function (keys, values, rereduce) {
-        return Math.max(...values);
-    }
-
+    // 3- Quel est le taux d'infection le plus élevé le 17/10/2021 ?
     debut = Date.now();
-    return db.query({map: mapQ2, reduce: reduceQ2}, {reduce: true, group: true, group_level: 1});
-*/
-
-
-    // 3- Quel est le taux d'infection le plus élevé le 10/09/2021 ?
-
+    return db.find({
+        selector: {Date: "2021-10-17T00:00:00"},
+        fields: ['TauxInfection']
+    }).then(function (res){
+        return Math.max(...res.docs.map(doc => doc.TauxInfection));
+    });
 
 }).then(function (res) {
-    console.log('FIND: RES');
-    console.log("RES: ", res);
     var duree = Date.now() - debut;
-    console.log("Duree en millisecondes: ", duree +"s");
+    console.log("Le taux d'infection le plus élevé le 17/10/2021 est : ", res);
+    console.log("Duree en millisecondes: ", duree);
 }).then(function (res) {
-    console.log('REMOVING DB');
     db.destroy();
 }).catch(function (err) {
     console.log("ERROR", err);

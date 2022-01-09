@@ -18,14 +18,14 @@
       "Infection": 15338,
       "Deces": 3,
       "Guerisons": 0,
-      "TauxDeces": 0.85,
+      "TauxDeces": 0.17,
       "TauxGuerison": 0.0,
-      "TauxInfection": 99.15
+      "TauxInfection": 35.96
     },
     {
       "Date": "2021-10-16T00:00:00",
       "Pays": "toto",
-      "Infection": 15338,
+      "Infection": 10236,
       "Deces": 2,
       "Guerisons": 0,
       "TauxDeces": 0.85,
@@ -101,6 +101,16 @@
       "TauxDeces": 2.19,
       "TauxGuerison": 0.0,
       "TauxInfection": 97.81
+    },
+    {
+      "Date": "2021-10-17T00:00:00",
+      "Pays": "Autriche",
+      "Infection": 775782,
+      "Deces": 11167,
+      "Guerisons": 0,
+      "TauxDeces": 1.44,
+      "TauxGuerison": 0.0,
+      "TauxInfection": 98.56
     }
   ]
 }

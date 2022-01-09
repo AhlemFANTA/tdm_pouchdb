@@ -2,7 +2,9 @@
 const PouchDB = require('pouchdb');
 PouchDB.plugin(require('pouchdb-find'));
 
-const data = './assets/coronavirus_data_10.json';
+const dataSize = process.argv.length === 3? process.argv[2] : 10;
+const data = './assets/coronavirus_data_'+dataSize+'.json';
+console.log("*** DATA SET:", data);
 
 //Creating local database object
 const db_local = new PouchDB('coronavirus_data');
@@ -26,15 +28,22 @@ db.bulkDocs(doc).then(function (res) {
     console.log('INDEX CREE PAR DATE');
 
 
-    // 4- Quel est le taux d’infection le plus élevé  en Suisse ?
+    // 4- Quel est le taux d’infection le plus élevé en Argentine ?
+    debut = Date.now();
+    return db.find({
+        selector: {Pays: "Argentine"},
+        fields: ['TauxInfection']
+    }).then(function (res){
+        return Math.max(...res.docs.map(doc => doc.TauxInfection));
+    });
 
 
 }).then(function (res) {
-    console.log("RES: ", res);
     var duree = Date.now() - debut;
-    console.log("Duree en millisecondes: ", duree +"s");
+    console.log("Le taux d’infection le plus élevé en Argentine est : ",
+        JSON.stringify(res, null, 2));
+    console.log("Duree en millisecondes: ", duree);
 }).then(function (res) {
-    console.log('REMOVING DB');
     db.destroy();
 }).catch(function (err) {
     console.log("ERROR", err);

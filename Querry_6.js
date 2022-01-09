@@ -2,7 +2,9 @@
 const PouchDB = require('pouchdb');
 PouchDB.plugin(require('pouchdb-find'));
 
-const data = './assets/coronavirus_data_10.json';
+const dataSize = process.argv.length === 3? process.argv[2] : 10;
+const data = './assets/coronavirus_data_'+dataSize+'.json';
+console.log("*** DATA SET:", data);
 
 //Creating local database object
 const db_local = new PouchDB('coronavirus_data');
@@ -26,15 +28,28 @@ db.bulkDocs(doc).then(function (res) {
     console.log('INDEX CREE PAR DATE');
 
     // Requêtes Analyste de données
-    // 6- Dans quel pays a eu le plus de décès sur toute la période?
+    // 6- Dans quel pays a eu lieu le plus de décès sur toute la période?
+    var map = function(doc) {
+        emit("ALL", {Pays: doc.Pays, Infection: doc.Infection})
+    }
+
+    var reduce = function(keys, values, rereduce) {
+        return values.reduce(function (a, b) {return a.Infection > b.Infection? a : b; });
+    }
+
+    debut = Date.now();
+    return db.query({map: map, reduce: reduce}, {reduce: true, group: true, group_level: 1});
 
 }).then(function (res) {
-    console.log('FIND: RES');
-    console.log("RES: ", res);
     var duree = Date.now() - debut;
-    console.log("Duree en millisecondes: ", duree +"s");
+
+    var out = res.rows.map(function(item) {
+        return {Pays: item.value.Pays,  Pic: item.value.Infection};
+    })[0];
+
+    console.log("RES: ", JSON.stringify(out, null, 2));
+    console.log("Duree en millisecondes: ", duree );
 }).then(function (res) {
-    console.log('REMOVING DB');
     db.destroy();
 }).catch(function (err) {
     console.log("ERROR", err);
