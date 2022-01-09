@@ -7,7 +7,7 @@ It is modelled after Couch DB – a NoSQL database. Using this API, we can build
 It internally uses WebSQL and IndexedDB to store data.
 </p>
 
-#How Does it Work?
+## How Does it Work?
 <p>
 In PouchDB, when the application is offline, the data is stored locally using WebSQL and IndexedDB in the browser.   
 
@@ -16,7 +16,7 @@ When the application is back online, it is synchronized with CouchDB and compati
 Using PouchDB, you can communicate with both local and remote databases seamlessly without noticing any difference.  
 </p>
 
-#How to get on with this application?
+## How to get on with this application?
 1. Installing Pouch Using Node.js
 ```
 npm install --save PouchDB
@@ -27,12 +27,12 @@ npm install --save PouchDB
 3. After installation, open built-in web interface of CouchDB by visiting the following link:  
    [http://127.0.0.1:5984/](http://127.0.0.1:5984/)  
 
-#About this project
+## About this project
 This project contains the following :
 - a folder "assets" witch contains a dataset of different sizes (10, 100, 1000, 6388, 10000 docs)
 - 6 querries written in Javascript to explore dataset using Map Reduce and find() functionnalities.
 
-#How to run it?
+## How to run it?
 run the following command :
 ```
 node + name of js file + size of dataset
